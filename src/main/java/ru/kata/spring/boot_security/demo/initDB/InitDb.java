@@ -45,6 +45,7 @@ public class InitDb {
             userService.createUser(new User("user@mail.com", "user", "user", "user", 35, userRoles));
             userService.createUser(new User("q", "q", "q", "q", 35,testRoles ));
             userService.createUser(new User("a", "a", "a", "a", 55,userRoles ));
+            userService.createUser(new User("a", "a", "a", "a", 55,userRoles ));
 
         }
     }
